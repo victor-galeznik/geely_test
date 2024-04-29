@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './components/Header/Header';
+import Car from './components/Car/Car';
+import { cars } from './constants/cars';
+import ShowMore from './components/ShowMore/ShowMore';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header />
+
+      {cars.map((car) => (
+        <Car
+          key={car.id}
+          title={car.carName.toUpperCase()}
+          previousPrice={car.previousPrice}
+          currentPrice={car.currentPrice}
+          payment={car.payment}
+        />
+      ))}
+
+      <ShowMore />
     </div>
   );
 }

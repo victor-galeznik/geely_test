@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: column;
+  // padding: 0 72px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 40px;
+
+    @media (max-width: 1024px) {
+      font-size: 36px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.cars {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 100px;
+
+    @media (max-width: 1024px) {
+      margin-bottom: 60px;
+    }
+
+    @media (max-width: 360px) {
+      grid-template-columns: repeat(2, 1fr);
+      margin-bottom: 40px;
+    }
+  }
+
+  &__el {
+    color: #222222;
+    font-size: 18px;
+    width: 190px;
+    height: 36px;
+    border: 1px solid #356875;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: none;
+    box-shadow: 0px 4px 6px 0px #262e2b26;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #356875;
+      color: #fff;
+    }
+
+    @media (max-width: 1024px) {
+      width: 178px;
+    }
+
+    @media (max-width: 360px) {
+      width: 150px;
+      height: 31px;
+      font-size: 16px;
+
+      &:hover {
+        background-color: initial;
+        color: initial;
+      }
+    }
+  }
+}
