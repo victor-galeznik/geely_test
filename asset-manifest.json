@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/geely_test/static/css/main.96585240.css",
+    "main.js": "/geely_test/static/js/main.b20790fb.js",
+    "static/media/bg-image.png": "/geely_test/static/media/bg-image.2d7b56d5e72e53f50c46.png",
+    "static/media/bg-image-1024.png": "/geely_test/static/media/bg-image-1024.ede3c097d606e9de07fc.png",
+    "static/media/bg-image-360.png": "/geely_test/static/media/bg-image-360.0dd2060d005546ba51ab.png",
+    "static/media/car.png": "/geely_test/static/media/car.ce355c5b1117300ae36e.png",
+    "static/media/car-small-2.jpg": "/geely_test/static/media/car-small-2.300a607cd0da6f7b4d3d.jpg",
+    "static/media/car-small-3.jpg": "/geely_test/static/media/car-small-3.d978eada5fbc44e4e6b8.jpg",
+    "static/media/image-1.svg": "/geely_test/static/media/image-1.8888f21ce9b3686ddcdf3e0249554af7.svg",
+    "index.html": "/geely_test/index.html",
+    "main.96585240.css.map": "/geely_test/static/css/main.96585240.css.map",
+    "main.b20790fb.js.map": "/geely_test/static/js/main.b20790fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96585240.css",
+    "static/js/main.b20790fb.js"
+  ]
+}
